@@ -3,14 +3,14 @@
 An interactive web app that helps students navigate OU's campus — find buildings, rooms, and accessible routes, with AI-assisted navigation.
 
 ## Team — Group B
-- Andy
-- Dorothy
-- Tyler
-- Nathan
-- Will
+- Andy Henson
+- Dorothy Yoon
+- Tyler Stageberg
+- Nathan Sandoval
+- Will Aclin
 
 ## Course
-CS-3203-001, Fall 2026 — Ticket 3: Code Management
+CS-3203-001, Fall 2026
 
 ## Features
 - Interactive campus map with building and room locations
