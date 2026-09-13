@@ -21,40 +21,6 @@ CS-3203-001, Fall 2026
 - Traffic/issue/event/maintenance reporting
 - Staff reporting dashboard
 
-## Current Sprint Tasks
-| Task | Assigned To | Complete By |
-|---|---|---|
-| Define product requirements | All | 9/11/2026 |
-| Campus data collection | Andy | 9/19/2026 |
-| Map development | All | 9/26/2026 |
-| Room and other location information | Dorothy, Tyler | 9/19/2026 |
-| Accessibility mapping | Andy, Nathan | 9/19/2026 |
-| Walk time calculation | Will | 9/19/2026 |
-| AI feature plan | Tyler, Nathan | 9/26/2026 |
-
-## Backlog
-- Get campus/building data
-- Create an interactive map prototype
-- Add building/room information
-- Accessibility features (ramps, elevators, door buttons)
-- Walking navigation
-- Walking time calculations
-- AI navigation assistant
-- Connect the AI to the map to assist in navigating
-- Create traffic/issue/event/maintenance reporting
-- Make UI
-- Report manager (for staff)
-- Integrate and test everything
-- Accessibility testing
-- Bug testing
-- Deploy the product
-
-## Tech Stack
-- Frontend: [e.g. React, HTML/CSS/JS]
-- Backend: [e.g. Node.js, Python/Flask]
-- Map data: [e.g. Leaflet, Google Maps API, Mapbox]
-- Database: [e.g. Firebase, PostgreSQL]
-
 ## Getting Started
 
 ```bash
