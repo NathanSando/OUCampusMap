@@ -1,2 +1,114 @@
-# OUCampusMap
-OU specific map for walking and navigation.
+# OU Campus Navigation Map
+
+An interactive web app that helps students navigate OU's campus — find buildings, rooms, and accessible routes, with AI-assisted navigation.
+
+## Team — Group B
+- Andy
+- Dorothy
+- Tyler
+- Nathan
+- Will
+
+## Course
+CS-3203-001, Fall 2026 — Ticket 3: Code Management
+
+## Features
+- Interactive campus map with building and room locations
+- Campus/building data collection and integration
+- Accessibility mapping (ramps, elevators, door buttons)
+- Walking navigation with walk time calculations
+- AI navigation assistant connected to the map
+- Traffic/issue/event/maintenance reporting
+- Staff reporting dashboard
+
+## Current Sprint Tasks
+| Task | Assigned To | Complete By |
+|---|---|---|
+| Define product requirements | All | 9/11/2026 |
+| Campus data collection | Andy | 9/19/2026 |
+| Map development | All | 9/26/2026 |
+| Room and other location information | Dorothy, Tyler | 9/19/2026 |
+| Accessibility mapping | Andy, Nathan | 9/19/2026 |
+| Walk time calculation | Will | 9/19/2026 |
+| AI feature plan | Tyler, Nathan | 9/26/2026 |
+
+## Backlog
+- Get campus/building data
+- Create an interactive map prototype
+- Add building/room information
+- Accessibility features (ramps, elevators, door buttons)
+- Walking navigation
+- Walking time calculations
+- AI navigation assistant
+- Connect the AI to the map to assist in navigating
+- Create traffic/issue/event/maintenance reporting
+- Make UI
+- Report manager (for staff)
+- Integrate and test everything
+- Accessibility testing
+- Bug testing
+- Deploy the product
+
+## Tech Stack
+- Frontend: [e.g. React, HTML/CSS/JS]
+- Backend: [e.g. Node.js, Python/Flask]
+- Map data: [e.g. Leaflet, Google Maps API, Mapbox]
+- Database: [e.g. Firebase, PostgreSQL]
+
+## Getting Started
+
+```bash
+git clone [repo URL]
+cd campus-map
+npm install
+npm start
+```
+
+## Branching Strategy
+
+We use a three-tier branching model to keep `main` stable and avoid conflicts between team members:
+
+- **`main`** — always deployable. Only updated via merges from `dev` after review.
+- **`dev`** — integration branch. All finished features get merged here first and tested together.
+- **`feature/*`** — one branch per feature, created off `dev`. Examples based on our current sprint:
+  - `feature/campus-data-collection`
+  - `feature/map-development`
+  - `feature/room-location-info`
+  - `feature/accessibility-mapping`
+  - `feature/walk-time-calculation`
+  - `feature/ai-navigation-assistant`
+
+### Workflow
+1. Create a feature branch off `dev`:
+   ```bash
+   git checkout dev
+   git checkout -b feature/your-feature-name
+   ```
+2. Commit your work in small, frequent commits while developing.
+3. Before merging, **squash** your commits into one clean commit:
+   ```bash
+   git rebase -i HEAD~n   # n = number of commits to squash
+   ```
+4. **Rebase** onto the latest `dev` to avoid merge conflicts and keep history linear:
+   ```bash
+   git fetch origin
+   git rebase origin/dev
+   ```
+5. Push your branch and open a Pull Request into `dev`.
+6. After review/approval, **merge** into `dev`.
+7. Periodically, `dev` is merged into `main` once a stable set of features is confirmed working.
+
+### Why this workflow?
+- **Branching** isolates each person's work (e.g. Andy on accessibility mapping, Will on walk time calculations) so no one breaks `main` while experimenting.
+- **Squashing** keeps the commit history readable — one commit = one feature, not a dozen "wip" commits.
+- **Rebasing** avoids messy merge commits and keeps a linear, easy-to-follow history.
+- **Merging** (via PR) brings reviewed, working code into the shared branch safely.
+
+## Project Structure
+```
+campus-map/
+├── src/
+├── public/
+├── docs/
+└── README.md
+```
