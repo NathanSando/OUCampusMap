@@ -1,6 +1,18 @@
 # OU Campus Navigation Map
 
-An interactive web app that helps students navigate OU's campus — find buildings, rooms, and accessible routes, with AI-assisted navigation.
+A cross-platform (iOS and Android) mobile app for navigating the University of Oklahoma's Norman campus. It is built primarily for students, with visitors, parents, and campus staff as secondary audiences, and answers questions that a paper map or the official campus website can't:
+
+- Where is this building, and how long will it take me to walk there?
+- Which entrance is accessible, and does the building have a working elevator right now?
+- Where is the nearest WEPA printer, or somewhere to eat?
+- Is anything happening on campus right now, such as construction, closures, a broken elevator, or an event blocking a walkway?
+
+Two things set it apart from OU's existing static map:
+
+1. **Crowdsourced, time-limited reports.** Signed-in users can submit categorized reports (elevator outage, construction, event, hazard, closure) that appear on the map for everyone, can be upvoted or downvoted, and expire automatically.
+2. **A natural-language campus assistant.** Users can ask questions in plain English and get answers grounded in the app's own live data, instead of tapping through menus.
+
+The app covers the Norman campus only. It gives walking routes with distance and estimated walk time, but not indoor turn-by-turn navigation.
 
 ## Team — Group B
 
@@ -23,6 +35,21 @@ CS-3203-001, Fall 2026
 - AI navigation assistant connected to the map
 - Traffic/issue/event/maintenance reporting
 - Staff reporting dashboard
+
+## Tech Stack
+
+| Layer                | Technology                                                                    |
+| -------------------- | ----------------------------------------------------------------------------- |
+| Mobile app           | React Native + Expo (Expo Router for file-based navigation), TypeScript       |
+| Map rendering        | `react-native-maps`                                                           |
+| Walking directions   | Mapbox Directions API (walking profile)                                       |
+| Data fetching        | TanStack Query (React Query)                                                  |
+| Database             | Supabase (PostgreSQL + PostGIS), with Row Level Security                      |
+| Auth & realtime      | Supabase Auth (email + password) and Supabase Realtime for live report updates |
+| Backend API          | Node.js 20+, Express, TypeScript, Zod for request validation                  |
+| AI service           | Python 3.11+, FastAPI, Pydantic, OpenAI API (retrieval-augmented assistant and report classification) |
+| Testing & tooling    | Jest and Testing Library (mobile), Vitest and Supertest (API), pytest (AI service), ESLint, Prettier, Ruff, Black |
+| Repo structure       | npm workspaces monorepo (`apps/mobile`, `apps/api`, `apps/ai-service`, `packages/shared-types`) |
 
 ## Getting Started
 
