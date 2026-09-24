@@ -1,0 +1,1896 @@
+{
+ "buildings": [
+  {
+   "id": "f80c0610-6b31-5771-9c62-ea282edf4a19",
+   "name": "Bizzell Memorial Library",
+   "abbreviation": null,
+   "aliases": [
+    "Bizzell",
+    "the library",
+    "Bizzell Library",
+    "main library"
+   ],
+   "description": "OU's main library, between the North and South Ovals.",
+   "address": null,
+   "lat": 35.208047,
+   "lng": -97.445894,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "88dce130-dc4e-5c16-9d1d-b1a81abcaa83",
+   "name": "Evans Hall",
+   "abbreviation": null,
+   "aliases": [
+    "admin building",
+    "administration building"
+   ],
+   "description": "Administration building on the North Oval.",
+   "address": null,
+   "lat": 35.208509,
+   "lng": -97.445693,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "name": "Oklahoma Memorial Union",
+   "abbreviation": "OMU",
+   "aliases": [
+    "the Union",
+    "Union",
+    "student union",
+    "Memorial Union"
+   ],
+   "description": "Student union with the food court, bookstore and meeting space.",
+   "address": null,
+   "lat": 35.209325,
+   "lng": -97.444335,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "3c7bf15d-2bb0-5c39-871f-8ddb70011dac",
+   "name": "Adams Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": "Part of the Price College of Business.",
+   "address": null,
+   "lat": 35.207953,
+   "lng": -97.444403,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "fce41963-caad-5fbd-b43c-ec8d9e66f18b",
+   "name": "Price Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Price College",
+    "Price College of Business",
+    "business school"
+   ],
+   "description": "Price College of Business.",
+   "address": "307 West Brooks Street",
+   "lat": 35.207936,
+   "lng": -97.443798,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "76b7c050-8be1-5ab5-a639-91cff4b750fd",
+   "name": "Buchanan Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Buchanan"
+   ],
+   "description": null,
+   "address": "1000 Asp Avenue",
+   "lat": 35.208501,
+   "lng": -97.444481,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "8f8945f6-2698-56d7-84d1-429d7b1b6b33",
+   "name": "Burton Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "610 Elm Avenue",
+   "lat": 35.208992,
+   "lng": -97.448494,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "25dd315c-1d9b-5843-854d-65faf11b1900",
+   "name": "Carl Albert Center",
+   "abbreviation": null,
+   "aliases": [
+    "Carl Albert Congressional Research and Studies Center"
+   ],
+   "description": null,
+   "address": "630 Parrington Oval",
+   "lat": 35.209402,
+   "lng": -97.44502,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "247deaad-9cf8-5164-ba15-f175d2153d3e",
+   "name": "Carnegie Building",
+   "abbreviation": null,
+   "aliases": [
+    "Carnegie"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.208883,
+   "lng": -97.445076,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "102570b4-b865-562d-b183-b8e242b2e9da",
+   "name": "Carpenter Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.210326,
+   "lng": -97.444172,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "c943ec5e-4544-5529-8b81-9888f2a79feb",
+   "name": "Carson Engineering Center",
+   "abbreviation": "CEC",
+   "aliases": [
+    "Carson"
+   ],
+   "description": "Gallogly College of Engineering.",
+   "address": "202 West Boyd Street",
+   "lat": 35.210758,
+   "lng": -97.442805,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "f9844d38-b55d-5044-967f-220a28abfa7a",
+   "name": "Catlett Music Center",
+   "abbreviation": null,
+   "aliases": [
+    "Catlett",
+    "music building",
+    "School of Music"
+   ],
+   "description": "School of Music.",
+   "address": "500 West Boyd Street",
+   "lat": 35.210412,
+   "lng": -97.448421,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "64292ecb-5970-5c6e-9110-04098d9783f8",
+   "name": "Chemistry Building",
+   "abbreviation": null,
+   "aliases": [
+    "chem building",
+    "Chemistry"
+   ],
+   "description": "Chemistry and biochemistry.",
+   "address": "680 Parrington Oval",
+   "lat": 35.209402,
+   "lng": -97.446302,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "85349c5f-1952-527f-a14d-7dbacbbe464b",
+   "name": "Chemistry Annex",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "680 Parrington Oval",
+   "lat": 35.209418,
+   "lng": -97.446696,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "651decc5-d1f6-5eee-b694-03a6f1efffb1",
+   "name": "Charles M. Russell Center",
+   "abbreviation": null,
+   "aliases": [
+    "Russell Center"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.21193,
+   "lng": -97.446688,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "df14687e-bb90-58bd-a73d-5f0f14730c57",
+   "name": "Devon Energy Hall",
+   "abbreviation": "DEH",
+   "aliases": [
+    "Devon",
+    "Devon Hall"
+   ],
+   "description": "Home of the School of Computer Science and the School of Electrical and Computer Engineering.",
+   "address": "110 West Boyd Street",
+   "lat": 35.21076,
+   "lng": -97.441796,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "c17bb8dd-f07f-5449-964e-06e552209648",
+   "name": "Gallogly Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Gallogly"
+   ],
+   "description": "Gallogly College of Engineering.",
+   "address": "173 Felgar Street",
+   "lat": 35.21018,
+   "lng": -97.442271,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "53359cdf-4f55-5dd7-a0af-64a48944bd9d",
+   "name": "Felgar Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Felgar"
+   ],
+   "description": "Engineering classrooms and labs.",
+   "address": "865 Asp Avenue",
+   "lat": 35.21022,
+   "lng": -97.443003,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "71609d83-6ef0-554b-aebb-b9bbf62f35cb",
+   "name": "Engineering Laboratory",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "200 Felgar Street",
+   "lat": 35.209447,
+   "lng": -97.44313,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "226952e9-8401-5aac-8957-0c4c1ef48961",
+   "name": "ExxonMobil Lawrence G. Rawl Engineering Practice Facility",
+   "abbreviation": null,
+   "aliases": [
+    "Rawl",
+    "Rawl Engineering Practice Facility",
+    "REPF"
+   ],
+   "description": null,
+   "address": "850 South Jenkins Avenue",
+   "lat": 35.210236,
+   "lng": -97.441683,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "cb7dc034-9a0a-56ce-ad24-c11588619be4",
+   "name": "Sarkeys Energy Center",
+   "abbreviation": "SEC",
+   "aliases": [
+    "Sarkeys"
+   ],
+   "description": "Mewbourne College of Earth and Energy.",
+   "address": null,
+   "lat": 35.210401,
+   "lng": -97.440442,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "752e97fe-576e-500d-8924-3d66b4253a7a",
+   "name": "Physical Sciences Center",
+   "abbreviation": "PHSC",
+   "aliases": [
+    "PSC"
+   ],
+   "description": "Mathematics, physics and astronomy.",
+   "address": "601 Elm Avenue",
+   "lat": 35.209309,
+   "lng": -97.447267,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "d412be06-e541-5c71-948b-0366515c1d33",
+   "name": "Old Science Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "640 Parrington Oval",
+   "lat": 35.208894,
+   "lng": -97.446299,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "c2303529-d70e-5572-805f-a7e9e09262ca",
+   "name": "Fred Jones Jr. Museum of Art",
+   "abbreviation": "FJJMA",
+   "aliases": [
+    "art museum",
+    "Fred Jones Museum"
+   ],
+   "description": "Art museum.",
+   "address": "555 Elm Avenue",
+   "lat": 35.210718,
+   "lng": -97.447323,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "8fcb040f-9887-5990-92e5-d5fb7f5d72a4",
+   "name": "Fred Jones Jr. Art Center",
+   "abbreviation": null,
+   "aliases": [
+    "Fred Jones Center",
+    "art building"
+   ],
+   "description": null,
+   "address": "520 Parrington Oval",
+   "lat": 35.21074,
+   "lng": -97.446583,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "7d73b749-96ac-5630-85af-397d2e180cdc",
+   "name": "Reynolds Performing Arts Center",
+   "abbreviation": null,
+   "aliases": [
+    "Reynolds"
+   ],
+   "description": null,
+   "address": "560 Parrington Oval",
+   "lat": 35.210191,
+   "lng": -97.446646,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "a40e1bb2-7b4d-5eb2-925a-255e624429b9",
+   "name": "Jacobson Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.21029,
+   "lng": -97.444915,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "f045b071-8426-52a5-a551-c6b404f8d305",
+   "name": "Boyd House",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.211616,
+   "lng": -97.446214,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "410a7517-f4b5-5cac-b7c0-f145b4a74e95",
+   "name": "Goddard Health Center",
+   "abbreviation": null,
+   "aliases": [
+    "Goddard",
+    "health center",
+    "student health"
+   ],
+   "description": "Student health services.",
+   "address": "620 Elm Avenue",
+   "lat": 35.208413,
+   "lng": -97.448552,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "b3ac1c1e-92ea-5ff3-936e-3e44ebf61ab7",
+   "name": "Ellison Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "465-477 West Brooks Street",
+   "lat": 35.207929,
+   "lng": -97.447387,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "aea9a921-4b07-5055-8196-5bcdd4780626",
+   "name": "Farzaneh Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Hester Hall",
+    "Hester"
+   ],
+   "description": "Formerly Hester Hall.",
+   "address": null,
+   "lat": 35.207008,
+   "lng": -97.44751,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "9d4ab276-752f-5343-9a0f-0f7e81f73cb7",
+   "name": "Nielsen Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "440 West Brooks Street",
+   "lat": 35.207079,
+   "lng": -97.446738,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "0aefc639-9b9c-5c08-8579-d6c48a4aaa97",
+   "name": "Robertson Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.206184,
+   "lng": -97.447473,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "50175463-eead-5e06-88e7-36cdec60ceec",
+   "name": "Kaufman Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "780 Van Vleet Oval",
+   "lat": 35.206114,
+   "lng": -97.446621,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "ea896d54-621a-581b-aea7-e4715f16d835",
+   "name": "Lin Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "Van Vleet Oval",
+   "lat": 35.206649,
+   "lng": -97.44657,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "1858bd64-46a0-5ecb-9a85-cd5eff59dfd1",
+   "name": "Collings Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "860 Van Vleet Oval",
+   "lat": 35.205569,
+   "lng": -97.446521,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "fcf17c1c-7f44-57bd-8930-572b03c4e308",
+   "name": "Copeland Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "433 West Lindsey Street",
+   "lat": 35.204759,
+   "lng": -97.446587,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "d056ef5d-92fd-5017-afec-2a4fc5a195dd",
+   "name": "Dale Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Dale"
+   ],
+   "description": "Large lecture classrooms.",
+   "address": "455 West Lindsey Street",
+   "lat": 35.204289,
+   "lng": -97.446638,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "806edeb8-6f25-5787-8618-7a02313b5ed7",
+   "name": "Dale Hall Tower",
+   "abbreviation": null,
+   "aliases": [
+    "DHT"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.204281,
+   "lng": -97.447218,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "2c7f13cd-3470-5665-a8cb-36f586724ecc",
+   "name": "Gould Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Gould"
+   ],
+   "description": "Christopher C. Gibbs College of Architecture.",
+   "address": "830 Van Vleet Oval",
+   "lat": 35.205434,
+   "lng": -97.444899,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "31a98d36-dc2a-589f-9ad5-021aec7344bd",
+   "name": "Gaylord Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Gaylord College",
+    "journalism building"
+   ],
+   "description": "Gaylord College of Journalism and Mass Communication.",
+   "address": "395 West Lindsey Street",
+   "lat": 35.204511,
+   "lng": -97.444872,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "cdc5541c-2a4f-5059-a44c-a0164ce1de6b",
+   "name": "George Lynn Cross Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Cross Hall",
+    "GLCH"
+   ],
+   "description": null,
+   "address": "1140 Asp Avenue",
+   "lat": 35.206546,
+   "lng": -97.445047,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "4c0a07b5-84e0-5cfc-b87b-a09d1e620201",
+   "name": "Richards Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "1100 Asp Avenue",
+   "lat": 35.207064,
+   "lng": -97.444762,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "e048495a-af17-5cd6-9e51-46db3e2c1bb7",
+   "name": "Armory",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.206876,
+   "lng": -97.443812,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "c9d7059b-6315-594d-9fb9-92955d96d565",
+   "name": "Lissa and Cy Wagner Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Wagner Hall",
+    "Wagner",
+    "Student Academic Services Center"
+   ],
+   "description": "Student academic services, including tutoring and advising.",
+   "address": "1005 Asp Avenue",
+   "lat": 35.208393,
+   "lng": -97.443079,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "ea290899-8f73-5fad-ab5f-7a5479143800",
+   "name": "McCasland Field House",
+   "abbreviation": null,
+   "aliases": [
+    "Field House"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.208109,
+   "lng": -97.442324,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "e2ad3443-c6fa-526c-b1dc-7db06a89170b",
+   "name": "Gaylord Family–Oklahoma Memorial Stadium",
+   "abbreviation": null,
+   "aliases": [
+    "Memorial Stadium",
+    "the stadium",
+    "Owen Field",
+    "football stadium"
+   ],
+   "description": "Home of Sooner football.",
+   "address": null,
+   "lat": 35.205667,
+   "lng": -97.442256,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "518e1329-2023-5f3f-9649-59e77ffde8f3",
+   "name": "Everest Training Center",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.204635,
+   "lng": -97.438777,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "3b358dea-98ad-55fc-940f-79a9bb97f51f",
+   "name": "Mosier Indoor Athletic Facility",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.204857,
+   "lng": -97.437948,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "f1f92bf9-455e-5d49-b01c-b3d08e7e3b7f",
+   "name": "Asp Avenue Parking Facility",
+   "abbreviation": null,
+   "aliases": [
+    "Asp garage",
+    "Asp Avenue garage"
+   ],
+   "description": "Parking garage.",
+   "address": null,
+   "lat": 35.205714,
+   "lng": -97.443774,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "1719cd96-069f-5320-85c8-8cdab08d3cf4",
+   "name": "Elm Avenue Parking Facility",
+   "abbreviation": null,
+   "aliases": [
+    "Elm garage",
+    "Elm Avenue garage"
+   ],
+   "description": "Parking garage.",
+   "address": "594-614 Elm Avenue",
+   "lat": 35.209541,
+   "lng": -97.448414,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "480b9ce4-b4d2-5158-970c-9ac3e685dbbe",
+   "name": "Jenkins Parking Garage",
+   "abbreviation": null,
+   "aliases": [
+    "Jenkins garage"
+   ],
+   "description": "Parking garage.",
+   "address": "1332 Jenkins Avenue",
+   "lat": 35.201959,
+   "lng": -97.441904,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "a0ed3c59-f8a3-5a30-babf-93ba4bd34080",
+   "name": "Timberdell Parking Garage",
+   "abbreviation": null,
+   "aliases": [
+    "Timberdell garage"
+   ],
+   "description": "Parking garage.",
+   "address": null,
+   "lat": 35.197236,
+   "lng": -97.4422,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "32377f21-a627-5487-b8da-74c755f055dc",
+   "name": "Oklahoma Memorial Union Parking Center",
+   "abbreviation": null,
+   "aliases": [
+    "Union garage",
+    "Union parking"
+   ],
+   "description": "Parking garage.",
+   "address": null,
+   "lat": 35.210047,
+   "lng": -97.444348,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "60d00009-4d46-5f8d-ad46-2793f33dc747",
+   "name": "Cate Center 1",
+   "abbreviation": "CCD1",
+   "aliases": [
+    "Cate 1"
+   ],
+   "description": null,
+   "address": "Cate Center Drive",
+   "lat": 35.20351,
+   "lng": -97.445116,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "fbe8f817-24fb-5c1e-9ed7-5930e9c52bde",
+   "name": "Cate Center 2",
+   "abbreviation": "CCD2",
+   "aliases": [
+    "Cate 2"
+   ],
+   "description": null,
+   "address": "Cate Center Drive",
+   "lat": 35.203514,
+   "lng": -97.446295,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "0d8640fc-04f8-5303-8471-d12ae5a2a7aa",
+   "name": "Cate Center 4",
+   "abbreviation": "CCD4",
+   "aliases": [
+    "Cate 4"
+   ],
+   "description": null,
+   "address": "Cate Center Drive",
+   "lat": 35.202617,
+   "lng": -97.446292,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "d6d8f71b-fecd-579c-86ae-074d4be56b2d",
+   "name": "David L. Boren Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Boren Hall",
+    "Boren",
+    "Honors College"
+   ],
+   "description": "Residence hall and home of the Honors College.",
+   "address": "1300 Asp Avenue",
+   "lat": 35.203146,
+   "lng": -97.444868,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "bfaa0c81-e9dc-5610-bc15-81245ea45d1d",
+   "name": "Dunham College",
+   "abbreviation": null,
+   "aliases": [
+    "Dunham"
+   ],
+   "description": "Residential college.",
+   "address": "250 West Lindsey Street",
+   "lat": 35.203337,
+   "lng": -97.443337,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "92f87b66-2699-5329-950c-72173decf9e8",
+   "name": "Headington College",
+   "abbreviation": null,
+   "aliases": [],
+   "description": "Residential college.",
+   "address": "200 West Lindsey Street",
+   "lat": 35.203314,
+   "lng": -97.442308,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "d512fb80-9da4-5769-b7e4-fcc8b2eef5fe",
+   "name": "Headington Hall",
+   "abbreviation": null,
+   "aliases": [],
+   "description": "Residence hall.",
+   "address": null,
+   "lat": 35.203148,
+   "lng": -97.440739,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "d5d49cb9-ed3b-54cf-832b-52d7ecd8ef2f",
+   "name": "Couch Restaurants",
+   "abbreviation": null,
+   "aliases": [
+    "Couch Center",
+    "Couch Cafeteria",
+    "the caf",
+    "Couch dining"
+   ],
+   "description": "Main campus dining hall.",
+   "address": null,
+   "lat": 35.200341,
+   "lng": -97.445704,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "0464a78a-70cd-5d98-8783-c49524c5155c",
+   "name": "Couch Tower",
+   "abbreviation": null,
+   "aliases": [
+    "Couch"
+   ],
+   "description": "Residence hall.",
+   "address": null,
+   "lat": 35.200343,
+   "lng": -97.444907,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "68a13dff-6b18-593b-b5b1-30ec936b1ca3",
+   "name": "Walker Tower",
+   "abbreviation": null,
+   "aliases": [
+    "Walker Center",
+    "Walker"
+   ],
+   "description": "Residence hall.",
+   "address": null,
+   "lat": 35.201603,
+   "lng": -97.444892,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "da27e003-23a5-54b7-9349-56bd3b611dd7",
+   "name": "S.J. Sarkeys Complex",
+   "abbreviation": null,
+   "aliases": [
+    "Sarkeys Complex"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.201631,
+   "lng": -97.443823,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "17caf6c4-c152-5e5e-8c3b-5299a8f5e065",
+   "name": "Sarkeys Fitness Center",
+   "abbreviation": null,
+   "aliases": [
+    "gym",
+    "rec center",
+    "fitness center"
+   ],
+   "description": "Campus recreation and fitness center.",
+   "address": "1401 Asp Avenue",
+   "lat": 35.201445,
+   "lng": -97.442954,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "a12ad98d-b998-5616-944b-a8de5c0840f1",
+   "name": "University of Oklahoma Food Pantry",
+   "abbreviation": null,
+   "aliases": [
+    "food pantry"
+   ],
+   "description": "Food pantry for students.",
+   "address": "331 Cate Center Drive",
+   "lat": 35.203082,
+   "lng": -97.446266,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "3097d05f-c535-5b98-ab04-2016983730cb",
+   "name": "Jim Thorpe Multicultural Center",
+   "abbreviation": null,
+   "aliases": [
+    "Thorpe Center"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.198763,
+   "lng": -97.445949,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "ec99b235-73fa-50df-bab5-3602b3e0fd64",
+   "name": "McCarter Hall of Advanced Studies",
+   "abbreviation": null,
+   "aliases": [
+    "McCarter Hall"
+   ],
+   "description": null,
+   "address": "1610 South Asp Avenue",
+   "lat": 35.198832,
+   "lng": -97.444909,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "1f5a6eb5-fcc5-549f-9665-6498c81106c8",
+   "name": "Boomer Outreach Building",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.197374,
+   "lng": -97.445964,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "911dc23d-00ae-5879-8094-1b9d8cebef2f",
+   "name": "Thurman J. White Forum",
+   "abbreviation": null,
+   "aliases": [
+    "OCCE Forum",
+    "OCCCE Forum",
+    "Forum Building"
+   ],
+   "description": null,
+   "address": "1704 South Asp Avenue",
+   "lat": 35.198056,
+   "lng": -97.445603,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "6fe462b5-1620-5edd-9971-0723733d7e18",
+   "name": "Andrew M. Coats Hall",
+   "abbreviation": null,
+   "aliases": [
+    "Coats Hall",
+    "College of Law",
+    "Law Center",
+    "law school",
+    "Law Library"
+   ],
+   "description": "College of Law and Law Library.",
+   "address": "300 West Timberdell Road",
+   "lat": 35.19597,
+   "lng": -97.446797,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "e84ac06f-11d3-5488-a08b-2f9dc8a73835",
+   "name": "University of Oklahoma Foundation",
+   "abbreviation": null,
+   "aliases": [
+    "OU Foundation"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.195889,
+   "lng": -97.444842,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "63ea5e0b-dca3-5480-a598-d47c6dafea57",
+   "name": "Sam Noble Oklahoma Museum of Natural History",
+   "abbreviation": null,
+   "aliases": [
+    "Sam Noble Museum",
+    "natural history museum"
+   ],
+   "description": "Natural history museum.",
+   "address": "2401 Chautauqua Avenue",
+   "lat": 35.194413,
+   "lng": -97.449026,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "6dc742df-05b0-5d02-801e-b4f190ca0c21",
+   "name": "Traditions Square East",
+   "abbreviation": null,
+   "aliases": [
+    "Traditions East"
+   ],
+   "description": "Campus apartments.",
+   "address": null,
+   "lat": 35.19296,
+   "lng": -97.446237,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "456b9491-3223-5b1a-901e-e2dcfa6606f6",
+   "name": "Traditions Square West Clubhouse",
+   "abbreviation": null,
+   "aliases": [
+    "Traditions West"
+   ],
+   "description": "Campus apartments clubhouse.",
+   "address": "2730 Chautauqua Avenue",
+   "lat": 35.190132,
+   "lng": -97.450975,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "ba12540a-9d34-5b65-ab15-a316a5524c15",
+   "name": "Lloyd Noble Center",
+   "abbreviation": "LNC",
+   "aliases": [
+    "arena"
+   ],
+   "description": "Arena and event venue.",
+   "address": "2900 Jenkins Avenue",
+   "lat": 35.187032,
+   "lng": -97.444274,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "f7043854-8112-5b75-be12-52c2e01c4fa5",
+   "name": "Headington Family Tennis Center",
+   "abbreviation": null,
+   "aliases": [
+    "tennis center"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.18736,
+   "lng": -97.448718,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "36a4ecac-65c1-5b00-8958-f214200a1c6d",
+   "name": "Sam Viersen Gymnastics Practice Facility",
+   "abbreviation": null,
+   "aliases": [
+    "gymnastics"
+   ],
+   "description": null,
+   "address": null,
+   "lat": 35.1903,
+   "lng": -97.443845,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "035d3049-09fb-53fa-8fd9-290abab5ac25",
+   "name": "University of Oklahoma Police Department",
+   "abbreviation": null,
+   "aliases": [
+    "OUPD",
+    "campus police"
+   ],
+   "description": "Campus police.",
+   "address": null,
+   "lat": 35.189834,
+   "lng": -97.435037,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "19810e83-38a2-58d3-905c-606b81768566",
+   "name": "National Weather Center",
+   "abbreviation": "NWC",
+   "aliases": [
+    "weather center"
+   ],
+   "description": "Home of the School of Meteorology and NOAA weather research offices.",
+   "address": "120 David L Boren Boulevard",
+   "lat": 35.181566,
+   "lng": -97.43986,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "0cdf8a22-6925-517e-a4ed-e03d0933e976",
+   "name": "Stephenson Research & Technology Center",
+   "abbreviation": "SRTC",
+   "aliases": [],
+   "description": null,
+   "address": "101 David L Boren Boulevard",
+   "lat": 35.183691,
+   "lng": -97.440365,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "1c813384-9eb6-5dcd-8454-29d76c17982c",
+   "name": "Stephenson Life Sciences Research Center",
+   "abbreviation": "SLSRC",
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.185879,
+   "lng": -97.440431,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "5765f010-ac51-5d11-af48-8a1e5314f2a8",
+   "name": "One Partners Place",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.182518,
+   "lng": -97.437078,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "97b51515-724e-5feb-b673-5dd775bb17bd",
+   "name": "Two Partners Place",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "3100 Monitor Avenue",
+   "lat": 35.182803,
+   "lng": -97.436059,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "a21d2490-42e9-5b41-b078-23fa16d59eba",
+   "name": "Tom Love Innovation Hub",
+   "abbreviation": null,
+   "aliases": [
+    "Innovation Hub",
+    "Three Partners Place"
+   ],
+   "description": "Entrepreneurship and maker space.",
+   "address": "201 David L Boren Boulevard",
+   "lat": 35.183716,
+   "lng": -97.438134,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "b7cebd12-010b-5ede-af7d-eccb75482a9c",
+   "name": "Four Partners Place",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": "301 David L Boren Boulevard",
+   "lat": 35.183706,
+   "lng": -97.437115,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "8a0a5f38-6f29-595c-a74e-46405e50e1b3",
+   "name": "Five Partners Place",
+   "abbreviation": null,
+   "aliases": [],
+   "description": null,
+   "address": null,
+   "lat": 35.18574,
+   "lng": -97.439065,
+   "hours": null,
+   "image_url": null
+  },
+  {
+   "id": "21948ee1-fc37-514f-b84f-ef088de5ef11",
+   "name": "Radar Innovations Laboratory",
+   "abbreviation": null,
+   "aliases": [
+    "RIL"
+   ],
+   "description": null,
+   "address": "3190 Monitor Avenue",
+   "lat": 35.181237,
+   "lng": -97.436864,
+   "hours": null,
+   "image_url": null
+  }
+ ],
+ "dining": [
+  {
+   "id": "918a1c8c-c98b-57da-8ae3-281ae99eb9e6",
+   "name": "Couch Restaurants",
+   "building_id": "d5d49cb9-ed3b-54cf-832b-52d7ecd8ef2f",
+   "lat": 35.200341,
+   "lng": -97.445704,
+   "hours": null,
+   "cuisine_type": "Dining hall",
+   "accepts_meal_plan": true,
+   "menu_url": null
+  },
+  {
+   "id": "39eb7152-7678-55be-9cd7-649240cc8dd6",
+   "name": "Residential Colleges' Dining Hall",
+   "building_id": null,
+   "lat": 35.203428,
+   "lng": -97.442802,
+   "hours": {
+    "mon": "08:00-14:00,16:30-20:00",
+    "tue": "08:00-14:00,16:30-20:00",
+    "wed": "08:00-14:00,16:30-20:00",
+    "thu": "08:00-14:00,16:30-20:00",
+    "fri": "08:00-14:00,16:30-20:00",
+    "sat": "11:00-14:00,16:00-19:00",
+    "sun": "11:00-14:00,16:00-19:00"
+   },
+   "cuisine_type": "Dining hall",
+   "accepts_meal_plan": true,
+   "menu_url": null
+  },
+  {
+   "id": "b1833821-aa0f-5578-af0f-32eafdb835aa",
+   "name": "Crossroads",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "lat": 35.208978,
+   "lng": -97.444407,
+   "hours": null,
+   "cuisine_type": "American",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "3f833a23-16ca-52cd-899d-f8f07ffa5046",
+   "name": "Chick-fil-A",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "lat": 35.209756,
+   "lng": -97.44416,
+   "hours": {
+    "mon": "11:00-20:00",
+    "tue": "11:00-20:00",
+    "wed": "11:00-20:00",
+    "thu": "11:00-20:00",
+    "fri": "11:00-20:00",
+    "sat": "11:00-15:00",
+    "sun": "closed"
+   },
+   "cuisine_type": "Chicken",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "bd9df261-d8e9-54f6-a7af-963d4e0c043a",
+   "name": "Starbucks",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "lat": 35.209234,
+   "lng": -97.444152,
+   "hours": {
+    "mon": "07:00-21:00",
+    "tue": "07:00-21:00",
+    "wed": "07:00-21:00",
+    "thu": "07:00-21:00",
+    "fri": "07:00-17:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Coffee",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "6a2f7576-c80c-5982-a8bc-4c89d6294e58",
+   "name": "Crimson Panda",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "lat": 35.209669,
+   "lng": -97.444153,
+   "hours": null,
+   "cuisine_type": "Chinese",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "5d6eb015-9255-59ca-b2e6-88cac1fb66fd",
+   "name": "Quiznos",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "lat": 35.209637,
+   "lng": -97.444222,
+   "hours": null,
+   "cuisine_type": "Sandwiches",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "4c2ab9d5-c9fb-5cda-bab9-9c7faec90f77",
+   "name": "Baja Fresh",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "lat": 35.209772,
+   "lng": -97.444225,
+   "hours": null,
+   "cuisine_type": "Mexican",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "466a86d6-2026-543f-a577-47c0b6ce144c",
+   "name": "University Club",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "lat": 35.209709,
+   "lng": -97.444184,
+   "hours": {
+    "mon": "11:00-14:00",
+    "tue": "11:00-14:00",
+    "wed": "11:00-14:00",
+    "thu": "11:00-14:00",
+    "fri": "11:00-14:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "American",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "0c56f7c8-33cf-5ed1-9799-79d1cb65369e",
+   "name": "The Bookmark",
+   "building_id": "f80c0610-6b31-5771-9c62-ea282edf4a19",
+   "lat": 35.208035,
+   "lng": -97.44625,
+   "hours": null,
+   "cuisine_type": "Coffee",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "754d6c14-01c5-5354-9b8d-c73b67400737",
+   "name": "Einstein Bros Bagels",
+   "building_id": null,
+   "lat": 35.203585,
+   "lng": -97.440947,
+   "hours": {
+    "mon": "closed",
+    "tue": "07:30-13:00",
+    "wed": "07:30-13:00",
+    "thu": "07:30-13:00",
+    "fri": "07:30-13:00",
+    "sat": "07:30-15:00",
+    "sun": "07:30-15:00"
+   },
+   "cuisine_type": "Bagels & breakfast",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "d9e9f83a-6240-5611-94e9-e1053ed7adde",
+   "name": "Amicus Cafe",
+   "building_id": "6fe462b5-1620-5edd-9971-0723733d7e18",
+   "lat": 35.196098,
+   "lng": -97.446459,
+   "hours": {
+    "mon": "07:00-14:00",
+    "tue": "07:00-14:00",
+    "wed": "07:00-14:00",
+    "thu": "07:00-14:00",
+    "fri": "07:00-14:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Coffee",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "74d577c2-590b-59f1-a665-5e570143f685",
+   "name": "Cafe 201",
+   "building_id": "a21d2490-42e9-5b41-b078-23fa16d59eba",
+   "lat": 35.18362,
+   "lng": -97.438141,
+   "hours": {
+    "mon": "07:45-14:00",
+    "tue": "07:45-14:00",
+    "wed": "07:45-14:00",
+    "thu": "07:45-14:00",
+    "fri": "07:45-14:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Cafe",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "3ed89b8b-40d1-5bc3-9b89-6c17d5e3d4d5",
+   "name": "The Flying Cow Cafe",
+   "building_id": "19810e83-38a2-58d3-905c-606b81768566",
+   "lat": 35.181274,
+   "lng": -97.43997,
+   "hours": {
+    "mon": "07:30-15:00",
+    "tue": "07:30-15:00",
+    "wed": "07:30-15:00",
+    "thu": "07:30-15:00",
+    "fri": "07:30-15:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "American",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "2fb6bea6-6ff9-53fa-a114-03d0f34d37f0",
+   "name": "The Hive",
+   "building_id": null,
+   "lat": 35.198735,
+   "lng": -97.44384,
+   "hours": {
+    "mon": "07:30-15:30",
+    "tue": "07:30-15:30",
+    "wed": "07:30-15:30",
+    "thu": "07:30-15:30",
+    "fri": "07:30-15:30",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Coffee, crepes & donuts",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "d0e9a043-c358-5312-ae46-0020e5e06faf",
+   "name": "Basic Knead",
+   "building_id": null,
+   "lat": 35.198736,
+   "lng": -97.44395,
+   "hours": {
+    "mon": "13:00-00:00",
+    "tue": "13:00-00:00",
+    "wed": "13:00-00:00",
+    "thu": "13:00-00:00",
+    "fri": "13:00-22:00",
+    "sat": "closed",
+    "sun": "16:00-00:00"
+   },
+   "cuisine_type": "Pizza & pasta",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "b0d00cb5-3234-58a1-a9df-199bccfc7d13",
+   "name": "Credo Kitchen",
+   "building_id": null,
+   "lat": 35.19932,
+   "lng": -97.443945,
+   "hours": {
+    "mon": "13:00-00:00",
+    "tue": "13:00-00:00",
+    "wed": "13:00-00:00",
+    "thu": "13:00-00:00",
+    "fri": "13:00-22:00",
+    "sat": "closed",
+    "sun": "16:00-00:00"
+   },
+   "cuisine_type": "Burgers & chicken",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "ff7f1a40-2d41-57fc-a340-f80e225a77b3",
+   "name": "Glow Kitchen",
+   "building_id": null,
+   "lat": 35.199149,
+   "lng": -97.443937,
+   "hours": {
+    "mon": "13:00-00:00",
+    "tue": "13:00-00:00",
+    "wed": "13:00-00:00",
+    "thu": "13:00-00:00",
+    "fri": "13:00-22:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Bubble tea, tea & sandwiches",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "5d95cf11-dadc-5777-b6e2-426cd74e767d",
+   "name": "Milkflower Gelateria",
+   "building_id": null,
+   "lat": 35.199007,
+   "lng": -97.443935,
+   "hours": {
+    "mon": "11:00-22:00",
+    "tue": "11:00-22:00",
+    "wed": "11:00-22:00",
+    "thu": "11:00-22:00",
+    "fri": "13:30-22:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Gelato",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "0b2c8fca-5d17-5636-9958-a9543ae1ae86",
+   "name": "Sushi with Gusto",
+   "building_id": null,
+   "lat": 35.198299,
+   "lng": -97.443908,
+   "hours": {
+    "mon": "11:00-22:00",
+    "tue": "11:00-22:00",
+    "wed": "11:00-22:00",
+    "thu": "11:00-22:00",
+    "fri": "11:00-22:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Sushi",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "929fbf7e-d50d-5bae-a421-d6045835a4d9",
+   "name": "Pitchfork Taqueria",
+   "building_id": null,
+   "lat": 35.198407,
+   "lng": -97.443903,
+   "hours": {
+    "mon": "17:00-22:00",
+    "tue": "17:00-22:00",
+    "wed": "17:00-22:00",
+    "thu": "17:00-22:00",
+    "fri": "17:00-22:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Mexican",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  },
+  {
+   "id": "0c430f5f-c9a3-5cd7-b0d7-da930754150b",
+   "name": "The Range",
+   "building_id": null,
+   "lat": 35.198335,
+   "lng": -97.443877,
+   "hours": {
+    "mon": "10:00-18:00",
+    "tue": "10:00-18:00",
+    "wed": "10:00-18:00",
+    "thu": "10:00-18:00",
+    "fri": "10:00-17:00",
+    "sat": "closed",
+    "sun": "closed"
+   },
+   "cuisine_type": "Breakfast & sandwiches",
+   "accepts_meal_plan": null,
+   "menu_url": null
+  }
+ ],
+ "printers": [
+  {
+   "id": "4aabb091-177f-5dd8-ad24-7e6e36e26527",
+   "label": "Bizzell Library — LL1 & Main Floor",
+   "building_id": "f80c0610-6b31-5771-9c62-ea282edf4a19",
+   "floor_note": "LL1, Main Floor",
+   "lat": 35.208047,
+   "lng": -97.445894,
+   "notes": null
+  },
+  {
+   "id": "9d7fdd3b-bc79-5859-8cc9-136e543965ac",
+   "label": "Buchanan Hall — Main Lobby",
+   "building_id": "76b7c050-8be1-5ab5-a639-91cff4b750fd",
+   "floor_note": "Main Lobby",
+   "lat": 35.208501,
+   "lng": -97.444481,
+   "notes": null
+  },
+  {
+   "id": "7f7010bc-8e2c-55a1-b285-c273b997ee61",
+   "label": "Carson Engineering Center",
+   "building_id": "c943ec5e-4544-5529-8b81-9888f2a79feb",
+   "floor_note": null,
+   "lat": 35.210758,
+   "lng": -97.442805,
+   "notes": null
+  },
+  {
+   "id": "de869a3d-91b5-5e61-9f42-236f247995fa",
+   "label": "Catlett Music Center",
+   "building_id": "f9844d38-b55d-5044-967f-220a28abfa7a",
+   "floor_note": null,
+   "lat": 35.210412,
+   "lng": -97.448421,
+   "notes": null
+  },
+  {
+   "id": "8b82b069-03ca-58e1-b5dd-9f02b05edbe8",
+   "label": "Devon Energy Hall",
+   "building_id": "df14687e-bb90-58bd-a73d-5f0f14730c57",
+   "floor_note": null,
+   "lat": 35.21076,
+   "lng": -97.441796,
+   "notes": null
+  },
+  {
+   "id": "e02415c9-2530-5ea0-a7b1-8e1d7494dc42",
+   "label": "Felgar Hall",
+   "building_id": "53359cdf-4f55-5dd7-a0af-64a48944bd9d",
+   "floor_note": null,
+   "lat": 35.21022,
+   "lng": -97.443003,
+   "notes": null
+  },
+  {
+   "id": "adcbae38-98b7-5aaa-85c6-e64969d98a51",
+   "label": "Fred Jones Jr. Art Center",
+   "building_id": "8fcb040f-9887-5990-92e5-d5fb7f5d72a4",
+   "floor_note": null,
+   "lat": 35.21074,
+   "lng": -97.446583,
+   "notes": null
+  },
+  {
+   "id": "b43eb14b-a51b-5c5c-9042-1b9f3a3bb288",
+   "label": "Gallogly Hall",
+   "building_id": "c17bb8dd-f07f-5449-964e-06e552209648",
+   "floor_note": null,
+   "lat": 35.21018,
+   "lng": -97.442271,
+   "notes": null
+  },
+  {
+   "id": "e9b5938f-b3f2-56bf-b7df-0c3a0687a292",
+   "label": "Physical Sciences Center",
+   "building_id": "752e97fe-576e-500d-8924-3d66b4253a7a",
+   "floor_note": null,
+   "lat": 35.209309,
+   "lng": -97.447267,
+   "notes": null
+  },
+  {
+   "id": "f563a493-6cf5-5f5c-934b-28d9bc2b2778",
+   "label": "Rawl Engineering Practice Facility",
+   "building_id": "226952e9-8401-5aac-8957-0c4c1ef48961",
+   "floor_note": null,
+   "lat": 35.210236,
+   "lng": -97.441683,
+   "notes": null
+  },
+  {
+   "id": "1f5a1796-8ecd-53c8-97c5-19d33ec46d40",
+   "label": "Sarkeys Energy Center",
+   "building_id": "cb7dc034-9a0a-56ce-ad24-c11588619be4",
+   "floor_note": null,
+   "lat": 35.210401,
+   "lng": -97.440442,
+   "notes": null
+  },
+  {
+   "id": "cc97c98b-bb88-5701-b8b3-ebfa6e341526",
+   "label": "Oklahoma Memorial Union — Computer Lab",
+   "building_id": "a636c12e-827b-553c-81cd-530c5a8059df",
+   "floor_note": "Computer Lab",
+   "lat": 35.209325,
+   "lng": -97.444335,
+   "notes": null
+  },
+  {
+   "id": "a5bb7443-a068-5561-aaf0-340210482f17",
+   "label": "Wagner Hall",
+   "building_id": "c9d7059b-6315-594d-9fb9-92955d96d565",
+   "floor_note": null,
+   "lat": 35.208393,
+   "lng": -97.443079,
+   "notes": null
+  },
+  {
+   "id": "36f4fd3b-1e64-5be3-890e-00e1fc59ed1e",
+   "label": "Coats Hall — Law Library",
+   "building_id": "6fe462b5-1620-5edd-9971-0723733d7e18",
+   "floor_note": "Law Library",
+   "lat": 35.19597,
+   "lng": -97.446797,
+   "notes": null
+  },
+  {
+   "id": "f6fc7293-0bc7-558c-b83a-f16310bc04d3",
+   "label": "Collings Hall",
+   "building_id": "1858bd64-46a0-5ecb-9a85-cd5eff59dfd1",
+   "floor_note": null,
+   "lat": 35.205569,
+   "lng": -97.446521,
+   "notes": null
+  },
+  {
+   "id": "f08a5e8b-81c6-5ef5-9637-b39a657b6366",
+   "label": "Copeland Hall",
+   "building_id": "fcf17c1c-7f44-57bd-8930-572b03c4e308",
+   "floor_note": null,
+   "lat": 35.204759,
+   "lng": -97.446587,
+   "notes": null
+  },
+  {
+   "id": "aea05244-91fa-53a6-ac58-43f46a992617",
+   "label": "Dale Hall",
+   "building_id": "d056ef5d-92fd-5017-afec-2a4fc5a195dd",
+   "floor_note": null,
+   "lat": 35.204289,
+   "lng": -97.446638,
+   "notes": null
+  },
+  {
+   "id": "ffe97ded-7e2d-5d41-8269-c16c746b5c62",
+   "label": "Gould Hall — B15",
+   "building_id": "2c7f13cd-3470-5665-a8cb-36f586724ecc",
+   "floor_note": "B15",
+   "lat": 35.205434,
+   "lng": -97.444899,
+   "notes": "Only kiosk on campus with tabloid (11×17) printing."
+  },
+  {
+   "id": "33963ca2-e29a-5704-a138-185f63ed6538",
+   "label": "Farzaneh Hall",
+   "building_id": "aea9a921-4b07-5055-8196-5bcdd4780626",
+   "floor_note": null,
+   "lat": 35.207008,
+   "lng": -97.44751,
+   "notes": null
+  },
+  {
+   "id": "52b759d2-9c15-56a8-90c2-6c887b90a650",
+   "label": "Kaufman Hall",
+   "building_id": "50175463-eead-5e06-88e7-36cdec60ceec",
+   "floor_note": null,
+   "lat": 35.206114,
+   "lng": -97.446621,
+   "notes": null
+  },
+  {
+   "id": "5b6c7025-aea1-521d-adc3-03c03f0f8052",
+   "label": "Tom Love Innovation Hub",
+   "building_id": "a21d2490-42e9-5b41-b078-23fa16d59eba",
+   "floor_note": null,
+   "lat": 35.183716,
+   "lng": -97.438134,
+   "notes": null
+  },
+  {
+   "id": "8385dfa9-f79a-56f1-97e7-eac68265a764",
+   "label": "Memorial Stadium — Lab",
+   "building_id": "e2ad3443-c6fa-526c-b1dc-7db06a89170b",
+   "floor_note": "Lab",
+   "lat": 35.205667,
+   "lng": -97.442256,
+   "notes": null
+  },
+  {
+   "id": "3291f9ce-0164-5702-88a5-d61b1d714780",
+   "label": "David L. Boren Hall",
+   "building_id": "d6d8f71b-fecd-579c-86ae-074d4be56b2d",
+   "floor_note": null,
+   "lat": 35.203146,
+   "lng": -97.444868,
+   "notes": null
+  },
+  {
+   "id": "f2f92cd4-7cac-5515-878f-0ff4f75ed0af",
+   "label": "Dunham College",
+   "building_id": "bfaa0c81-e9dc-5610-bc15-81245ea45d1d",
+   "floor_note": null,
+   "lat": 35.203337,
+   "lng": -97.443337,
+   "notes": null
+  },
+  {
+   "id": "4ad1e19f-ed82-5fe5-abc1-956c600a65b6",
+   "label": "Headington College",
+   "building_id": "92f87b66-2699-5329-950c-72173decf9e8",
+   "floor_note": null,
+   "lat": 35.203314,
+   "lng": -97.442308,
+   "notes": null
+  },
+  {
+   "id": "648d3896-ed7b-5379-926c-4aa73d33c435",
+   "label": "Headington Hall",
+   "building_id": "d512fb80-9da4-5769-b7e4-fcc8b2eef5fe",
+   "floor_note": null,
+   "lat": 35.203148,
+   "lng": -97.440739,
+   "notes": null
+  },
+  {
+   "id": "ac0ca9c2-3a3b-5cac-8f3d-5ca63df3ed50",
+   "label": "Walker Center",
+   "building_id": "68a13dff-6b18-593b-b5b1-30ec936b1ca3",
+   "floor_note": null,
+   "lat": 35.201603,
+   "lng": -97.444892,
+   "notes": null
+  },
+  {
+   "id": "d5cc0e86-4b2a-5df8-8033-538dd7f68461",
+   "label": "S.J. Sarkeys Complex",
+   "building_id": "da27e003-23a5-54b7-9349-56bd3b611dd7",
+   "floor_note": null,
+   "lat": 35.201631,
+   "lng": -97.443823,
+   "notes": null
+  },
+  {
+   "id": "9d3ab475-9281-5a82-9caf-26120c1b8178",
+   "label": "Traditions Square East Clubhouse",
+   "building_id": "6dc742df-05b0-5d02-801e-b4f190ca0c21",
+   "floor_note": "Clubhouse",
+   "lat": 35.19296,
+   "lng": -97.446237,
+   "notes": null
+  },
+  {
+   "id": "a3e60353-843b-5bab-b84d-75f82c164311",
+   "label": "Traditions Square West Clubhouse",
+   "building_id": "456b9491-3223-5b1a-901e-e2dcfa6606f6",
+   "floor_note": "Clubhouse",
+   "lat": 35.190132,
+   "lng": -97.450975,
+   "notes": null
+  },
+  {
+   "id": "e9381940-8e4c-5e51-9229-1fe438b975eb",
+   "label": "OCCCE Forum",
+   "building_id": "911dc23d-00ae-5879-8094-1b9d8cebef2f",
+   "floor_note": null,
+   "lat": 35.198056,
+   "lng": -97.445603,
+   "notes": null
+  }
+ ],
+ "accessibility": [],
+ "studySpaces": []
+}
