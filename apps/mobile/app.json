@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "SoonerMap",
+    "slug": "ou-campus-map",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "oucampusmap",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#101214",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "edu.ou.cs3203.campusmap"
+    },
+    "android": {
+      "package": "edu.ou.cs3203.campusmap",
+      "adaptiveIcon": {
+        "backgroundColor": "#841617",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "SoonerMap uses your location to show where you are on campus, give walking directions from where you're standing, and place reports you submit. The map works without it."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#101214",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
