@@ -1,0 +1,32 @@
+slug,label,building_slug,floor_note,notes,lat,lng,region
+bizzell,Bizzell Library — LL1 & Main Floor,bizzell-memorial-library,"LL1, Main Floor",,,,north
+buchanan,Buchanan Hall — Main Lobby,buchanan-hall,Main Lobby,,,,north
+carson,Carson Engineering Center,carson-engineering-center,,,,,north
+catlett,Catlett Music Center,catlett-music-center,,,,,north
+devon,Devon Energy Hall,devon-energy-hall,,,,,north
+felgar,Felgar Hall,felgar-hall,,,,,north
+fred-jones,Fred Jones Jr. Art Center,fred-jones-jr-art-center,,,,,north
+gallogly,Gallogly Hall,gallogly-hall,,,,,north
+physical-sciences,Physical Sciences Center,physical-sciences-center,,,,,north
+rawl,Rawl Engineering Practice Facility,rawl-engineering-practice-facility,,,,,north
+sarkeys-energy,Sarkeys Energy Center,sarkeys-energy-center,,,,,north
+union,Oklahoma Memorial Union — Computer Lab,oklahoma-memorial-union,Computer Lab,,,,north
+wagner,Wagner Hall,wagner-hall,,,,,north
+coats,Coats Hall — Law Library,coats-hall,Law Library,,,,south
+collings,Collings Hall,collings-hall,,,,,south
+copeland,Copeland Hall,copeland-hall,,,,,south
+dale,Dale Hall,dale-hall,,,,,south
+gould,Gould Hall — B15,gould-hall,B15,Only kiosk on campus with tabloid (11×17) printing.,,,south
+farzaneh,Farzaneh Hall,farzaneh-hall,,,,,south
+kaufman,Kaufman Hall,kaufman-hall,,,,,south
+innovation-hub,Tom Love Innovation Hub,tom-love-innovation-hub,,,,,south
+memorial-stadium,Memorial Stadium — Lab,memorial-stadium,Lab,,,,south
+boren,David L. Boren Hall,david-l-boren-hall,,,,,residence
+dunham,Dunham College,dunham-college,,,,,residence
+headington-college,Headington College,headington-college,,,,,residence
+headington-hall,Headington Hall,headington-hall,,,,,residence
+walker,Walker Center,walker-tower,,,,,residence
+sj-sarkeys,S.J. Sarkeys Complex,sj-sarkeys-complex,,,,,residence
+traditions-east,Traditions Square East Clubhouse,traditions-square-east,Clubhouse,,,,residence
+traditions-west,Traditions Square West Clubhouse,traditions-square-west-clubhouse,Clubhouse,,,,residence
+occce-forum,OCCCE Forum,thurman-j-white-forum,,,,,residence
