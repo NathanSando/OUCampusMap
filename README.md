@@ -3,6 +3,7 @@
 An interactive web app that helps students navigate OU's campus — find buildings, rooms, and accessible routes, with AI-assisted navigation.
 
 ## Team — Group B
+
 - Andy Henson
 - Dorothy Yoon
 - Tyler Stageberg
@@ -10,9 +11,11 @@ An interactive web app that helps students navigate OU's campus — find buildin
 - Will Aclin
 
 ## Course
+
 CS-3203-001, Fall 2026
 
 ## Features
+
 - Interactive campus map with building and room locations
 - Campus/building data collection and integration
 - Accessibility mapping (ramps, elevators, door buttons)
@@ -45,6 +48,7 @@ We use a three-tier branching model to keep `main` stable and avoid conflicts be
   - `feature/ai-navigation-assistant`
 
 ### Workflow
+
 1. Create a feature branch off `dev`:
    ```bash
    git checkout dev
@@ -65,12 +69,14 @@ We use a three-tier branching model to keep `main` stable and avoid conflicts be
 7. Periodically, `dev` is merged into `main` once a stable set of features is confirmed working.
 
 ### Why this workflow?
+
 - **Branching** isolates each person's work (e.g. Andy on accessibility mapping, Will on walk time calculations) so no one breaks `main` while experimenting.
 - **Squashing** keeps the commit history readable — one commit = one feature, not a dozen "wip" commits.
 - **Rebasing** avoids messy merge commits and keeps a linear, easy-to-follow history.
 - **Merging** (via PR) brings reviewed, working code into the shared branch safely.
 
 ## Project Structure
+
 ```
 campus-map/
 ├── src/
