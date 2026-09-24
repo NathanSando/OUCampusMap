@@ -1,0 +1,35 @@
+{
+  "name": "ou-campus-map",
+  "private": true,
+  "description": "Interactive map of the University of Oklahoma Norman campus (monorepo root).",
+  "workspaces": [
+    "apps/mobile",
+    "apps/api",
+    "packages/*"
+  ],
+  "scripts": {
+    "mobile": "npm run start --workspace apps/mobile",
+    "api": "npm run dev --workspace apps/api",
+    "ai": "cd apps/ai-service && py -m uvicorn app.main:app --reload --port 8000",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "seed:generate": "node supabase/seed/generate.mjs",
+    "db:start": "supabase start",
+    "db:reset": "npm run seed:generate && supabase db reset",
+    "db:stop": "supabase stop"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.0",
+    "supabase": "^2.40.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}

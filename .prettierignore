@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+.expo
+package-lock.json
+apps/ai-service
+supabase/seed/seed.sql
+apps/mobile/src/data/seed.generated.json
+docs
