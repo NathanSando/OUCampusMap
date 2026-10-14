@@ -1,6 +1,44 @@
-import { distanceMeters, type LatLng } from '@ou-campus-map/shared-types';
+import {
+  distanceMeters,
+  isWithinCampus,
+  type Building,
+  type LatLng,
+} from '@ou-campus-map/shared-types';
 
 export { distanceMeters };
+
+/** GPS starts must be this close to a mapped campus building to count as on campus. */
+export const MAX_CAMPUS_NODE_DISTANCE_M = 100;
+
+export interface CampusNodeProximity {
+  nearestNode: Pick<Building, 'name' | 'lat' | 'lng'> | null;
+  distanceMeters: number | null;
+  isOnCampus: boolean;
+}
+
+export function getCampusNodeProximity(
+  location: LatLng,
+  nodes: Pick<Building, 'name' | 'lat' | 'lng'>[],
+  maxDistanceMeters = MAX_CAMPUS_NODE_DISTANCE_M,
+): CampusNodeProximity {
+  let nearestNode: Pick<Building, 'name' | 'lat' | 'lng'> | null = null;
+  let nearestDistance = Number.POSITIVE_INFINITY;
+
+  for (const node of nodes) {
+    const distance = distanceMeters(location, node);
+    if (distance < nearestDistance) {
+      nearestNode = node;
+      nearestDistance = distance;
+    }
+  }
+
+  const distance = nearestNode ? nearestDistance : null;
+  return {
+    nearestNode,
+    distanceMeters: distance,
+    isOnCampus: isWithinCampus(location) && distance != null && distance <= maxDistanceMeters,
+  };
+}
 
 /** Average walking pace used for estimates (~3 mph). Mapbox gives real durations when available. */
 export const WALK_METERS_PER_MIN = 80;
