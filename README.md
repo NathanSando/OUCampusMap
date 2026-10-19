@@ -84,7 +84,7 @@ Design mockups for the main screens. The app is being built to match these; see 
 
 The Supabase CLI is installed by `npm install` (it's a dev dependency), so you don't need to install it separately.
 
-### Option A: Quick start (demo mode, about 5 minutes)
+### Quick start (demo mode, about 5 minutes)
 
 The app can run with **no backend at all**. With the Supabase variables left blank, it reads bundled seed data and shows a "Demo mode" banner. Accounts and reports are disabled in this mode.
 
@@ -97,41 +97,6 @@ npm run mobile
 ```
 
 Scan the QR code in the terminal with Expo Go (Android) or the Camera app (iOS). Your phone and computer must be on the same Wi-Fi network.
-
-### Option B: Full stack (database + API + AI service)
-
-Run each service in its own terminal, from the repo root unless noted.
-
-**1. Database (local Supabase in Docker)**
-
-```bash
-npm run db:start   # prints the API URL, anon key, and service_role key; keep these
-npm run db:reset   # applies supabase/migrations and loads the seed data
-```
-
-**2. Node API.** Copy [`apps/api/.env.example`](apps/api/.env.example) to `apps/api/.env` and fill in `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, and any random string for `AI_SERVICE_SHARED_SECRET`.
-
-```bash
-npm run api        # check http://localhost:3000/api/health
-```
-
-**3. AI service.** Copy [`apps/ai-service/.env.example`](apps/ai-service/.env.example) to `apps/ai-service/.env` and fill in `OPENAI_API_KEY`, the same Supabase values, and the **same** shared secret you used for the API.
-
-```bash
-cd apps/ai-service
-py -3.11 -m venv .venv          # macOS/Linux: python3 -m venv .venv
-.venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
-pip install -r requirements-dev.txt
-uvicorn app.main:app --reload --port 8000
-```
-
-**4. Mobile app.** In `apps/mobile/.env`, set `EXPO_PUBLIC_SUPABASE_URL` and `EXPO_PUBLIC_SUPABASE_ANON_KEY` from step 1 and `EXPO_PUBLIC_API_BASE_URL` (for example `http://192.168.1.20:3000`). Optionally set `EXPO_PUBLIC_MAPBOX_PUBLIC_TOKEN` to a public `pk.*` token; without it, directions fall back to a labelled straight-line estimate.
-
-```bash
-npm run mobile
-```
-
-> On a physical phone, use your computer's **LAN IP address** instead of `localhost` or `127.0.0.1` in the mobile `.env`.
 
 **Never commit `.env` files.** Service-role keys and the OpenAI key stay server-side. The mobile app only ever gets public keys.
 
