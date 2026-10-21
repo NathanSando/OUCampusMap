@@ -3,9 +3,9 @@
  * Expo inlines these at build time, so they must be read as literal `process.env.X`.
  */
 
-// TODO(team): app name and branding are undecided (design doc §15). "SoonerMap" is the
-// working name from the Stitch mockups.
-export const APP_NAME = 'SoonerMap';
+// TODO(team): app name and branding are undecided (design doc §15). "Sooner! Map" is the
+// current working name (the Stitch mockups used "SoonerMap").
+export const APP_NAME = 'Sooner! Map';
 
 const trim = (v: string | undefined) => (v ?? '').trim();
 

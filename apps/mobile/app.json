@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "SoonerMap",
+    "name": "Sooner! Map",
     "slug": "ou-campus-map",
     "version": "0.1.0",
     "orientation": "portrait",
@@ -29,7 +29,7 @@
       [
         "expo-location",
         {
-          "locationWhenInUsePermission": "SoonerMap uses your location to show where you are on campus, give walking directions from where you're standing, and place reports you submit. The map works without it."
+          "locationWhenInUsePermission": "Sooner! Map uses your location to show where you are on campus, give walking directions from where you're standing, and place reports you submit. The map works without it."
         }
       ],
       [
