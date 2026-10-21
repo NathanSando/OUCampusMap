@@ -25,7 +25,7 @@ export function AppHeader({ subtitle, right }: { subtitle: string; right?: React
       <Logo />
       <View style={styles.titles}>
         <AppText variant="headlineSm" accessibilityRole="header">
-          {APP_NAME}
+          {`${APP_NAME}?`}
         </AppText>
         <AppText variant="labelSm" color={colors.textSecondary} uppercase>
           {subtitle}
